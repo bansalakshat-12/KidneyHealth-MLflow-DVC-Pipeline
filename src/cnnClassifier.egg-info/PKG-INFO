@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/bansalakshat-12/KidneyHealth-MLflow-DVC-Pipeline
+Author: bansalakshat-12
+Author-email: akshatbansal217@gmail.com
+Project-URL: Bug Tracker, https://github.com/bansalakshat-12/KidneyHealth-MLflow-DVC-Pipeline/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/bansalakshat-12/KidneyHealth-MLflow-DVC-Pipeline
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n cnncls python=3.8 -y
+```
+
+```bash
+conda activate cnncls
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
